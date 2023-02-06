@@ -9,7 +9,7 @@ public class HealthBar : MonoBehaviour
 {
     public static HealthBar Instance;
     
-    //public int health = 100; - use this instance if I want health to reload when I go to next scene
+    //public int health = 100; - use this int instead og GameManager's health int if I want health to reset to 100 when I go to next scene
     
     public TMP_Text healthB;
     private void Awake() 
